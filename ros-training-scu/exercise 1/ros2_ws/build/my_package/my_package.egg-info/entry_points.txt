@@ -1,4 +1,0 @@
-[console_scripts]
-pub = my_package.publisher_member_function:main
-sub = my_package.subscriber_member_function:main
-
