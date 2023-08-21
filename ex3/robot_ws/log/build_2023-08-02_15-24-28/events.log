@@ -1,0 +1,570 @@
+[0.000000] (-) TimerEvent: {}
+[0.009280] (locomotion_core) JobQueued: {'identifier': 'locomotion_core', 'dependencies': OrderedDict()}
+[0.009511] (rover_launch) JobQueued: {'identifier': 'rover_launch', 'dependencies': OrderedDict()}
+[0.009558] (rsl_roboteq) JobQueued: {'identifier': 'rsl_roboteq', 'dependencies': OrderedDict()}
+[0.009579] (teleop_twist_joy) JobQueued: {'identifier': 'teleop_twist_joy', 'dependencies': OrderedDict()}
+[0.009599] (teleop_twist_keyboard) JobQueued: {'identifier': 'teleop_twist_keyboard', 'dependencies': OrderedDict()}
+[0.012928] (locomotion_core) JobStarted: {'identifier': 'locomotion_core'}
+[0.086258] (rover_launch) JobStarted: {'identifier': 'rover_launch'}
+[0.108646] (rsl_roboteq) JobStarted: {'identifier': 'rsl_roboteq'}
+[0.108805] (-) TimerEvent: {}
+[0.130666] (teleop_twist_joy) JobStarted: {'identifier': 'teleop_twist_joy'}
+[0.156243] (teleop_twist_keyboard) JobStarted: {'identifier': 'teleop_twist_keyboard'}
+[0.209570] (-) TimerEvent: {}
+[0.311904] (-) TimerEvent: {}
+[0.413100] (-) TimerEvent: {}
+[0.513417] (-) TimerEvent: {}
+[0.614898] (-) TimerEvent: {}
+[0.715606] (-) TimerEvent: {}
+[0.739896] (rover_launch) JobProgress: {'identifier': 'rover_launch', 'progress': 'cmake'}
+[0.743525] (rover_launch) Command: {'cmd': ['/usr/bin/cmake', '/home/vboxuser/rsl-ros-training/ex3/robot_ws/src/rover_launch', '-DCMAKE_INSTALL_PREFIX=/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch'], 'cwd': '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rover_launch', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1565'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=63d92a17f1aef2580d08e57564cad73d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu22:@/tmp/.ICE-unix/1565,unix/ubuntu22:/tmp/.ICE-unix/1565'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f5bce957_2bc3_4367_bfe7_871703e638e9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TNG681'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rover_launch'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=63d92a17f1aef2580d08e57564cad73d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.815777] (-) TimerEvent: {}
+[0.916568] (-) TimerEvent: {}
+[1.017791] (-) TimerEvent: {}
+[1.119313] (-) TimerEvent: {}
+[1.221280] (-) TimerEvent: {}
+[1.322852] (-) TimerEvent: {}
+[1.423997] (-) TimerEvent: {}
+[1.525957] (-) TimerEvent: {}
+[1.627131] (-) TimerEvent: {}
+[1.671544] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'cmake'}
+[1.675848] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '/home/vboxuser/rsl-ros-training/ex3/robot_ws/src/teleop_twist_joy', '-DCMAKE_INSTALL_PREFIX=/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy'], 'cwd': '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1565'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=63d92a17f1aef2580d08e57564cad73d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu22:@/tmp/.ICE-unix/1565,unix/ubuntu22:/tmp/.ICE-unix/1565'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f5bce957_2bc3_4367_bfe7_871703e638e9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TNG681'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=63d92a17f1aef2580d08e57564cad73d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.682258] (rover_launch) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.727543] (-) TimerEvent: {}
+[1.744026] (rover_launch) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.811712] (rover_launch) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.824873] (teleop_twist_joy) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.828179] (-) TimerEvent: {}
+[1.930042] (-) TimerEvent: {}
+[1.933085] (teleop_twist_joy) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.943786] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.015534] (rover_launch) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.030302] (-) TimerEvent: {}
+[2.035081] (rover_launch) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.075791] (rover_launch) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.078377] (rover_launch) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.110570] (rover_launch) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.123796] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.126917] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.127469] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.128254] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.130441] (-) TimerEvent: {}
+[2.134822] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.230984] (-) TimerEvent: {}
+[2.255766] (rover_launch) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.267431] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.267926] (rover_launch) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.268092] (rover_launch) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.268229] (rover_launch) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.273619] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.273884] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.273968] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.276133] (teleop_twist_joy) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.276578] (rover_launch) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.331623] (-) TimerEvent: {}
+[2.437760] (-) TimerEvent: {}
+[2.538196] (-) TimerEvent: {}
+[2.638791] (-) TimerEvent: {}
+[2.659712] (teleop_twist_joy) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.681295] (rover_launch) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.746288] (-) TimerEvent: {}
+[2.846791] (-) TimerEvent: {}
+[2.947677] (-) TimerEvent: {}
+[2.983826] (rover_launch) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.000229] (teleop_twist_joy) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[3.055586] (-) TimerEvent: {}
+[3.156147] (-) TimerEvent: {}
+[3.184493] (locomotion_core) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/locomotion_core', 'build', '--build-base', '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/locomotion_core/build', 'install', '--record', '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/locomotion_core/install.log', '--single-version-externally-managed'], 'cwd': '/home/vboxuser/rsl-ros-training/ex3/robot_ws/src/locomotion_core', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1565', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=63d92a17f1aef2580d08e57564cad73d', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu22:@/tmp/.ICE-unix/1565,unix/ubuntu22:/tmp/.ICE-unix/1565', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f5bce957_2bc3_4367_bfe7_871703e638e9', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TNG681', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/locomotion_core', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=63d92a17f1aef2580d08e57564cad73d', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/locomotion_core/prefix_override:/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/locomotion_core/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.213721] (teleop_twist_keyboard) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/teleop_twist_keyboard', 'build', '--build-base', '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_keyboard/build', 'install', '--record', '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_keyboard/install.log', '--single-version-externally-managed'], 'cwd': '/home/vboxuser/rsl-ros-training/ex3/robot_ws/src/teleop_twist_keyboard', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1565', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=63d92a17f1aef2580d08e57564cad73d', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu22:@/tmp/.ICE-unix/1565,unix/ubuntu22:/tmp/.ICE-unix/1565', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f5bce957_2bc3_4367_bfe7_871703e638e9', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TNG681', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_keyboard', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=63d92a17f1aef2580d08e57564cad73d', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_keyboard/prefix_override:/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.235238] (rsl_roboteq) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/rsl_roboteq', 'build', '--build-base', '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rsl_roboteq/build', 'install', '--record', '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rsl_roboteq/install.log', '--single-version-externally-managed'], 'cwd': '/home/vboxuser/rsl-ros-training/ex3/robot_ws/src/rsl_roboteq', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1565', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=63d92a17f1aef2580d08e57564cad73d', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu22:@/tmp/.ICE-unix/1565,unix/ubuntu22:/tmp/.ICE-unix/1565', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f5bce957_2bc3_4367_bfe7_871703e638e9', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TNG681', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rsl_roboteq', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=63d92a17f1aef2580d08e57564cad73d', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rsl_roboteq/prefix_override:/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rsl_roboteq/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.256323] (rover_launch) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.256594] (-) TimerEvent: {}
+[3.264305] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.265401] (rover_launch) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.267459] (rover_launch) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.272797] (rover_launch) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.276854] (rover_launch) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.280812] (rover_launch) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.287048] (rover_launch) StdoutLine: {'line': b'-- Generating done\n'}
+[3.290080] (rover_launch) StdoutLine: {'line': b'-- Build files have been written to: /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rover_launch\n'}
+[3.292167] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.318195] (rover_launch) CommandEnded: {'returncode': 0}
+[3.323157] (rover_launch) JobProgress: {'identifier': 'rover_launch', 'progress': 'build'}
+[3.326151] (rover_launch) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rover_launch', '--', '-j6', '-l6'], 'cwd': '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rover_launch', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1565'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=63d92a17f1aef2580d08e57564cad73d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu22:@/tmp/.ICE-unix/1565,unix/ubuntu22:/tmp/.ICE-unix/1565'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f5bce957_2bc3_4367_bfe7_871703e638e9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TNG681'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rover_launch'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=63d92a17f1aef2580d08e57564cad73d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.343661] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.356776] (-) TimerEvent: {}
+[3.397188] (teleop_twist_joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.404946] (rover_launch) CommandEnded: {'returncode': 0}
+[3.436301] (rover_launch) JobProgress: {'identifier': 'rover_launch', 'progress': 'install'}
+[3.436824] (teleop_twist_joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.448021] (rover_launch) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rover_launch'], 'cwd': '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rover_launch', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1565'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=63d92a17f1aef2580d08e57564cad73d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu22:@/tmp/.ICE-unix/1565,unix/ubuntu22:/tmp/.ICE-unix/1565'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f5bce957_2bc3_4367_bfe7_871703e638e9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TNG681'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rover_launch'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=63d92a17f1aef2580d08e57564cad73d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.456954] (-) TimerEvent: {}
+[3.463329] (rover_launch) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.463627] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/launch\n'}
+[3.463729] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/launch/rover.launch.py\n'}
+[3.463883] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/ament_index/resource_index/package_run_dependencies/rover_launch\n'}
+[3.463967] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/ament_index/resource_index/parent_prefix_path/rover_launch\n'}
+[3.464078] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/environment/ament_prefix_path.sh\n'}
+[3.464272] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/environment/ament_prefix_path.dsv\n'}
+[3.464412] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/environment/path.sh\n'}
+[3.464500] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/environment/path.dsv\n'}
+[3.464648] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/local_setup.bash\n'}
+[3.464723] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/local_setup.sh\n'}
+[3.464867] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/local_setup.zsh\n'}
+[3.464943] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/local_setup.dsv\n'}
+[3.465102] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/package.dsv\n'}
+[3.465178] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/ament_index/resource_index/packages/rover_launch\n'}
+[3.465326] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/cmake/rover_launchConfig.cmake\n'}
+[3.465402] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/cmake/rover_launchConfig-version.cmake\n'}
+[3.465534] (rover_launch) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/package.xml\n'}
+[3.467758] (rover_launch) CommandEnded: {'returncode': 0}
+[3.549574] (rover_launch) JobEnded: {'identifier': 'rover_launch', 'rc': 0}
+[3.557070] (-) TimerEvent: {}
+[3.562490] (locomotion_core) StdoutLine: {'line': b'running egg_info\n'}
+[3.562931] (locomotion_core) StdoutLine: {'line': b'creating ../../build/locomotion_core/locomotion_core.egg-info\n'}
+[3.563119] (locomotion_core) StdoutLine: {'line': b'writing ../../build/locomotion_core/locomotion_core.egg-info/PKG-INFO\n'}
+[3.563198] (locomotion_core) StdoutLine: {'line': b'writing dependency_links to ../../build/locomotion_core/locomotion_core.egg-info/dependency_links.txt\n'}
+[3.563363] (locomotion_core) StdoutLine: {'line': b'writing entry points to ../../build/locomotion_core/locomotion_core.egg-info/entry_points.txt\n'}
+[3.563446] (locomotion_core) StdoutLine: {'line': b'writing requirements to ../../build/locomotion_core/locomotion_core.egg-info/requires.txt\n'}
+[3.563616] (locomotion_core) StdoutLine: {'line': b'writing top-level names to ../../build/locomotion_core/locomotion_core.egg-info/top_level.txt\n'}
+[3.571668] (locomotion_core) StdoutLine: {'line': b"writing manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'\n"}
+[3.571924] (locomotion_core) StdoutLine: {'line': b"reading manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'\n"}
+[3.572197] (locomotion_core) StdoutLine: {'line': b"writing manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'\n"}
+[3.572276] (locomotion_core) StdoutLine: {'line': b'running build\n'}
+[3.572336] (locomotion_core) StdoutLine: {'line': b'running build_py\n'}
+[3.572399] (locomotion_core) StdoutLine: {'line': b'creating /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/locomotion_core/build\n'}
+[3.572463] (locomotion_core) StdoutLine: {'line': b'creating /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/locomotion_core/build/lib\n'}
+[3.572519] (locomotion_core) StdoutLine: {'line': b'creating /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/locomotion_core/build/lib/locomotion_core\n'}
+[3.572577] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/movebase_kinematics.py -> /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/locomotion_core/build/lib/locomotion_core\n'}
+[3.572637] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/__init__.py -> /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/locomotion_core/build/lib/locomotion_core\n'}
+[3.572699] (locomotion_core) StdoutLine: {'line': b'running install\n'}
+[3.572755] (locomotion_core) StdoutLine: {'line': b'running install_lib\n'}
+[3.572810] (locomotion_core) StdoutLine: {'line': b'creating /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/locomotion_core/lib/python3.10/site-packages/locomotion_core\n'}
+[3.572876] (locomotion_core) StdoutLine: {'line': b'copying /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/locomotion_core/build/lib/locomotion_core/movebase_kinematics.py -> /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/locomotion_core/lib/python3.10/site-packages/locomotion_core\n'}
+[3.572949] (locomotion_core) StdoutLine: {'line': b'copying /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/locomotion_core/build/lib/locomotion_core/__init__.py -> /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/locomotion_core/lib/python3.10/site-packages/locomotion_core\n'}
+[3.573010] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/locomotion_core/lib/python3.10/site-packages/locomotion_core/movebase_kinematics.py to movebase_kinematics.cpython-310.pyc\n'}
+[3.573068] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/locomotion_core/lib/python3.10/site-packages/locomotion_core/__init__.py to __init__.cpython-310.pyc\n'}
+[3.573134] (locomotion_core) StdoutLine: {'line': b'running install_data\n'}
+[3.573188] (locomotion_core) StdoutLine: {'line': b'creating /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/locomotion_core/share/ament_index\n'}
+[3.573244] (locomotion_core) StdoutLine: {'line': b'creating /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/locomotion_core/share/ament_index/resource_index\n'}
+[3.573315] (locomotion_core) StdoutLine: {'line': b'creating /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/locomotion_core/share/ament_index/resource_index/packages\n'}
+[3.573373] (locomotion_core) StdoutLine: {'line': b'copying resource/locomotion_core -> /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/locomotion_core/share/ament_index/resource_index/packages\n'}
+[3.573435] (locomotion_core) StdoutLine: {'line': b'copying package.xml -> /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/locomotion_core/share/locomotion_core\n'}
+[3.573629] (locomotion_core) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.573705] (locomotion_core) StdoutLine: {'line': b'Copying ../../build/locomotion_core/locomotion_core.egg-info to /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/locomotion_core/lib/python3.10/site-packages/locomotion_core-0.0.0-py3.10.egg-info\n'}
+[3.574529] (locomotion_core) StdoutLine: {'line': b'running install_scripts\n'}
+[3.603119] (locomotion_core) StdoutLine: {'line': b'Installing cmd_roboteq script to /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/locomotion_core/lib/locomotion_core\n'}
+[3.603365] (locomotion_core) StdoutLine: {'line': b'Installing movebase_kinematics script to /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/locomotion_core/lib/locomotion_core\n'}
+[3.603605] (locomotion_core) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/locomotion_core/install.log'\n"}
+[3.657257] (-) TimerEvent: {}
+[3.675786] (rsl_roboteq) StdoutLine: {'line': b'running egg_info\n'}
+[3.677205] (rsl_roboteq) StdoutLine: {'line': b'creating ../../build/rsl_roboteq/rsl_roboteq.egg-info\n'}
+[3.677584] (rsl_roboteq) StdoutLine: {'line': b'writing ../../build/rsl_roboteq/rsl_roboteq.egg-info/PKG-INFO\n'}
+[3.678188] (rsl_roboteq) StdoutLine: {'line': b'writing dependency_links to ../../build/rsl_roboteq/rsl_roboteq.egg-info/dependency_links.txt\n'}
+[3.682516] (locomotion_core) CommandEnded: {'returncode': 0}
+[3.683190] (rsl_roboteq) StdoutLine: {'line': b'writing entry points to ../../build/rsl_roboteq/rsl_roboteq.egg-info/entry_points.txt\n'}
+[3.697744] (rsl_roboteq) StdoutLine: {'line': b'writing requirements to ../../build/rsl_roboteq/rsl_roboteq.egg-info/requires.txt\n'}
+[3.698563] (rsl_roboteq) StdoutLine: {'line': b'writing top-level names to ../../build/rsl_roboteq/rsl_roboteq.egg-info/top_level.txt\n'}
+[3.698740] (rsl_roboteq) StdoutLine: {'line': b"writing manifest file '../../build/rsl_roboteq/rsl_roboteq.egg-info/SOURCES.txt'\n"}
+[3.698890] (rsl_roboteq) StdoutLine: {'line': b"reading manifest file '../../build/rsl_roboteq/rsl_roboteq.egg-info/SOURCES.txt'\n"}
+[3.698999] (rsl_roboteq) StdoutLine: {'line': b"writing manifest file '../../build/rsl_roboteq/rsl_roboteq.egg-info/SOURCES.txt'\n"}
+[3.699089] (rsl_roboteq) StdoutLine: {'line': b'running build\n'}
+[3.699162] (rsl_roboteq) StdoutLine: {'line': b'running build_py\n'}
+[3.699234] (rsl_roboteq) StdoutLine: {'line': b'creating /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rsl_roboteq/build\n'}
+[3.699401] (rsl_roboteq) StdoutLine: {'line': b'creating /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rsl_roboteq/build/lib\n'}
+[3.701772] (rsl_roboteq) StdoutLine: {'line': b'creating /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rsl_roboteq/build/lib/rsl_roboteq\n'}
+[3.702224] (rsl_roboteq) StdoutLine: {'line': b'copying rsl_roboteq/roboteq_node.py -> /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rsl_roboteq/build/lib/rsl_roboteq\n'}
+[3.702365] (rsl_roboteq) StdoutLine: {'line': b'copying rsl_roboteq/__init__.py -> /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rsl_roboteq/build/lib/rsl_roboteq\n'}
+[3.703252] (rsl_roboteq) StdoutLine: {'line': b'running install\n'}
+[3.705573] (rsl_roboteq) StdoutLine: {'line': b'running install_lib\n'}
+[3.705676] (rsl_roboteq) StdoutLine: {'line': b'creating /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rsl_roboteq/lib/python3.10/site-packages/rsl_roboteq\n'}
+[3.705781] (rsl_roboteq) StdoutLine: {'line': b'copying /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rsl_roboteq/build/lib/rsl_roboteq/roboteq_node.py -> /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rsl_roboteq/lib/python3.10/site-packages/rsl_roboteq\n'}
+[3.705892] (rsl_roboteq) StdoutLine: {'line': b'copying /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rsl_roboteq/build/lib/rsl_roboteq/__init__.py -> /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rsl_roboteq/lib/python3.10/site-packages/rsl_roboteq\n'}
+[3.705996] (rsl_roboteq) StdoutLine: {'line': b'byte-compiling /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rsl_roboteq/lib/python3.10/site-packages/rsl_roboteq/roboteq_node.py to roboteq_node.cpython-310.pyc\n'}
+[3.706086] (rsl_roboteq) StdoutLine: {'line': b'byte-compiling /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rsl_roboteq/lib/python3.10/site-packages/rsl_roboteq/__init__.py to __init__.cpython-310.pyc\n'}
+[3.706174] (rsl_roboteq) StdoutLine: {'line': b'running install_data\n'}
+[3.706318] (rsl_roboteq) StdoutLine: {'line': b'creating /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rsl_roboteq/share/ament_index\n'}
+[3.706411] (rsl_roboteq) StdoutLine: {'line': b'creating /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rsl_roboteq/share/ament_index/resource_index\n'}
+[3.707252] (rsl_roboteq) StdoutLine: {'line': b'creating /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rsl_roboteq/share/ament_index/resource_index/packages\n'}
+[3.707425] (rsl_roboteq) StdoutLine: {'line': b'copying resource/rsl_roboteq -> /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rsl_roboteq/share/ament_index/resource_index/packages\n'}
+[3.707799] (rsl_roboteq) StdoutLine: {'line': b'copying package.xml -> /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rsl_roboteq/share/rsl_roboteq\n'}
+[3.707904] (rsl_roboteq) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.708028] (rsl_roboteq) StdoutLine: {'line': b'Copying ../../build/rsl_roboteq/rsl_roboteq.egg-info to /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rsl_roboteq/lib/python3.10/site-packages/rsl_roboteq-0.0.0-py3.10.egg-info\n'}
+[3.708134] (rsl_roboteq) StdoutLine: {'line': b'running install_scripts\n'}
+[3.708211] (teleop_twist_keyboard) StdoutLine: {'line': b'running egg_info\n'}
+[3.708352] (teleop_twist_keyboard) StdoutLine: {'line': b'creating ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info\n'}
+[3.708443] (teleop_twist_keyboard) StdoutLine: {'line': b'writing ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO\n'}
+[3.709473] (teleop_twist_keyboard) StdoutLine: {'line': b'writing dependency_links to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt\n'}
+[3.709717] (teleop_twist_keyboard) StdoutLine: {'line': b'writing entry points to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt\n'}
+[3.709828] (teleop_twist_keyboard) StdoutLine: {'line': b'writing requirements to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt\n'}
+[3.709953] (teleop_twist_keyboard) StdoutLine: {'line': b'writing top-level names to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt\n'}
+[3.712945] (teleop_twist_keyboard) StdoutLine: {'line': b"writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[3.713075] (teleop_twist_keyboard) StdoutLine: {'line': b"reading manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[3.713175] (teleop_twist_keyboard) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.713269] (teleop_twist_keyboard) StdoutLine: {'line': b"writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[3.713968] (teleop_twist_keyboard) StdoutLine: {'line': b'running build\n'}
+[3.714186] (teleop_twist_keyboard) StdoutLine: {'line': b'running build_py\n'}
+[3.714299] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_keyboard/build\n'}
+[3.714985] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_keyboard/build/lib\n'}
+[3.715131] (teleop_twist_keyboard) StdoutLine: {'line': b'copying teleop_twist_keyboard.py -> /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_keyboard/build/lib\n'}
+[3.716132] (teleop_twist_keyboard) StdoutLine: {'line': b'running install\n'}
+[3.716820] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_lib\n'}
+[3.716910] (teleop_twist_keyboard) StdoutLine: {'line': b'copying /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard.py -> /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages\n'}
+[3.716985] (teleop_twist_keyboard) StdoutLine: {'line': b'byte-compiling /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-310.pyc\n'}
+[3.717053] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_data\n'}
+[3.717116] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_keyboard/share/ament_index\n'}
+[3.717180] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_keyboard/share/ament_index/resource_index\n'}
+[3.717244] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages\n'}
+[3.717307] (teleop_twist_keyboard) StdoutLine: {'line': b'copying resource/teleop_twist_keyboard -> /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages\n'}
+[3.717371] (teleop_twist_keyboard) StdoutLine: {'line': b'copying package.xml -> /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard\n'}
+[3.717434] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.717497] (teleop_twist_keyboard) StdoutLine: {'line': b'Copying ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.3.2-py3.10.egg-info\n'}
+[3.717561] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_scripts\n'}
+[3.717625] (locomotion_core) JobEnded: {'identifier': 'locomotion_core', 'rc': 0}
+[3.722989] (rsl_roboteq) StdoutLine: {'line': b'Installing roboteq_node script to /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rsl_roboteq/lib/rsl_roboteq\n'}
+[3.723553] (rsl_roboteq) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rsl_roboteq/install.log'\n"}
+[3.732243] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.741447] (teleop_twist_keyboard) StdoutLine: {'line': b'Installing teleop_twist_keyboard script to /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard\n'}
+[3.741941] (teleop_twist_keyboard) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_keyboard/install.log'\n"}
+[3.757994] (-) TimerEvent: {}
+[3.854033] (rsl_roboteq) CommandEnded: {'returncode': 0}
+[3.859228] (-) TimerEvent: {}
+[3.883815] (rsl_roboteq) JobEnded: {'identifier': 'rsl_roboteq', 'rc': 0}
+[3.909471] (teleop_twist_keyboard) CommandEnded: {'returncode': 0}
+[3.924422] (teleop_twist_keyboard) JobEnded: {'identifier': 'teleop_twist_keyboard', 'rc': 0}
+[3.959446] (-) TimerEvent: {}
+[4.019741] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.034195] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.059843] (-) TimerEvent: {}
+[4.160663] (-) TimerEvent: {}
+[4.213700] (teleop_twist_joy) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.248181] (teleop_twist_joy) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.260730] (-) TimerEvent: {}
+[4.305961] (teleop_twist_joy) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.335630] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.361166] (-) TimerEvent: {}
+[4.452178] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.452522] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.461716] (-) TimerEvent: {}
+[4.563389] (-) TimerEvent: {}
+[4.585891] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.587130] (teleop_twist_joy) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.664569] (-) TimerEvent: {}
+[4.767251] (-) TimerEvent: {}
+[4.846678] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.5 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[4.867457] (-) TimerEvent: {}
+[4.964266] (teleop_twist_joy) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.968437] (-) TimerEvent: {}
+[5.070161] (-) TimerEvent: {}
+[5.153027] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY\n'}
+[5.170694] (-) TimerEvent: {}
+[5.244107] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success\n'}
+[5.244911] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY\n'}
+[5.271110] (-) TimerEvent: {}
+[5.326228] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success\n'}
+[5.326479] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR\n'}
+[5.371122] (-) TimerEvent: {}
+[5.471400] (-) TimerEvent: {}
+[5.493886] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success\n'}
+[5.501291] (teleop_twist_joy) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.572183] (-) TimerEvent: {}
+[5.649401] (teleop_twist_joy) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.672321] (-) TimerEvent: {}
+[5.687632] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[5.689801] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[5.690148] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.690300] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.690373] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.715785] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[5.742419] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.742924] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/vboxuser/rsl-ros-training/ex3/robot_ws/src/teleop_twist_joy/include\n'}
+[5.743023] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.746806] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.751502] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.753500] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[5.757871] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.767893] (teleop_twist_joy) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.772690] (-) TimerEvent: {}
+[5.775326] (teleop_twist_joy) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:22 (add_library):\n'}
+[5.775683] (teleop_twist_joy) StderrLine: {'line': b'  Policy CMP0115 is not set: Source file extensions must be explicit.  Run\n'}
+[5.775802] (teleop_twist_joy) StderrLine: {'line': b'  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy\n'}
+[5.775886] (teleop_twist_joy) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[5.775963] (teleop_twist_joy) StderrLine: {'line': b'\n'}
+[5.776038] (teleop_twist_joy) StderrLine: {'line': b'  File:\n'}
+[5.776113] (teleop_twist_joy) StderrLine: {'line': b'\n'}
+[5.776187] (teleop_twist_joy) StderrLine: {'line': b'    /home/vboxuser/rsl-ros-training/ex3/robot_ws/src/teleop_twist_joy/src/teleop_twist_joy.cpp\n'}
+[5.776262] (teleop_twist_joy) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[5.776337] (teleop_twist_joy) StderrLine: {'line': b'\x1b[0m\n'}
+[5.803840] (teleop_twist_joy) StdoutLine: {'line': b'-- Generating done\n'}
+[5.804052] (teleop_twist_joy) StdoutLine: {'line': b'-- Build files have been written to: /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_joy\n'}
+[5.823935] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[5.825074] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'build'}
+[5.826464] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_joy', '--', '-j6', '-l6'], 'cwd': '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1565'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=63d92a17f1aef2580d08e57564cad73d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu22:@/tmp/.ICE-unix/1565,unix/ubuntu22:/tmp/.ICE-unix/1565'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f5bce957_2bc3_4367_bfe7_871703e638e9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TNG681'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=63d92a17f1aef2580d08e57564cad73d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.874856] (-) TimerEvent: {}
+[5.905338] (teleop_twist_joy) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/teleop_twist_joy.dir/src/teleop_twist_joy.cpp.o\x1b[0m\n'}
+[5.974963] (-) TimerEvent: {}
+[6.075851] (-) TimerEvent: {}
+[6.176226] (-) TimerEvent: {}
+[6.276963] (-) TimerEvent: {}
+[6.378375] (-) TimerEvent: {}
+[6.479506] (-) TimerEvent: {}
+[6.580588] (-) TimerEvent: {}
+[6.682398] (-) TimerEvent: {}
+[6.783431] (-) TimerEvent: {}
+[6.884589] (-) TimerEvent: {}
+[6.985235] (-) TimerEvent: {}
+[7.085770] (-) TimerEvent: {}
+[7.186612] (-) TimerEvent: {}
+[7.287747] (-) TimerEvent: {}
+[7.388654] (-) TimerEvent: {}
+[7.491658] (-) TimerEvent: {}
+[7.594064] (-) TimerEvent: {}
+[7.695609] (-) TimerEvent: {}
+[7.798736] (-) TimerEvent: {}
+[7.899819] (-) TimerEvent: {}
+[8.000419] (-) TimerEvent: {}
+[8.100877] (-) TimerEvent: {}
+[8.201501] (-) TimerEvent: {}
+[8.302387] (-) TimerEvent: {}
+[8.404743] (-) TimerEvent: {}
+[8.505386] (-) TimerEvent: {}
+[8.606654] (-) TimerEvent: {}
+[8.707527] (-) TimerEvent: {}
+[8.808014] (-) TimerEvent: {}
+[8.908738] (-) TimerEvent: {}
+[9.011608] (-) TimerEvent: {}
+[9.112138] (-) TimerEvent: {}
+[9.214689] (-) TimerEvent: {}
+[9.318534] (-) TimerEvent: {}
+[9.419010] (-) TimerEvent: {}
+[9.520846] (-) TimerEvent: {}
+[9.621373] (-) TimerEvent: {}
+[9.722444] (-) TimerEvent: {}
+[9.823675] (-) TimerEvent: {}
+[9.924231] (-) TimerEvent: {}
+[10.025692] (-) TimerEvent: {}
+[10.130238] (-) TimerEvent: {}
+[10.232086] (-) TimerEvent: {}
+[10.332811] (-) TimerEvent: {}
+[10.438027] (-) TimerEvent: {}
+[10.539681] (-) TimerEvent: {}
+[10.642224] (-) TimerEvent: {}
+[10.742876] (-) TimerEvent: {}
+[10.843751] (-) TimerEvent: {}
+[10.944374] (-) TimerEvent: {}
+[11.045330] (-) TimerEvent: {}
+[11.146071] (-) TimerEvent: {}
+[11.250961] (-) TimerEvent: {}
+[11.352824] (-) TimerEvent: {}
+[11.455631] (-) TimerEvent: {}
+[11.556118] (-) TimerEvent: {}
+[11.662014] (-) TimerEvent: {}
+[11.766040] (-) TimerEvent: {}
+[11.866718] (-) TimerEvent: {}
+[11.967671] (-) TimerEvent: {}
+[12.068115] (-) TimerEvent: {}
+[12.171615] (-) TimerEvent: {}
+[12.272062] (-) TimerEvent: {}
+[12.373931] (-) TimerEvent: {}
+[12.477981] (-) TimerEvent: {}
+[12.578662] (-) TimerEvent: {}
+[12.680309] (-) TimerEvent: {}
+[12.783868] (-) TimerEvent: {}
+[12.884621] (-) TimerEvent: {}
+[12.988016] (-) TimerEvent: {}
+[13.089740] (-) TimerEvent: {}
+[13.191996] (-) TimerEvent: {}
+[13.292524] (-) TimerEvent: {}
+[13.393096] (-) TimerEvent: {}
+[13.494196] (-) TimerEvent: {}
+[13.594765] (-) TimerEvent: {}
+[13.695207] (-) TimerEvent: {}
+[13.795655] (-) TimerEvent: {}
+[13.896033] (-) TimerEvent: {}
+[13.999885] (-) TimerEvent: {}
+[14.100587] (-) TimerEvent: {}
+[14.201129] (-) TimerEvent: {}
+[14.306052] (-) TimerEvent: {}
+[14.407158] (-) TimerEvent: {}
+[14.508744] (-) TimerEvent: {}
+[14.610593] (-) TimerEvent: {}
+[14.711409] (-) TimerEvent: {}
+[14.812404] (-) TimerEvent: {}
+[14.913406] (-) TimerEvent: {}
+[15.014522] (-) TimerEvent: {}
+[15.115223] (-) TimerEvent: {}
+[15.216079] (-) TimerEvent: {}
+[15.316427] (-) TimerEvent: {}
+[15.417209] (-) TimerEvent: {}
+[15.517536] (-) TimerEvent: {}
+[15.618552] (-) TimerEvent: {}
+[15.719694] (-) TimerEvent: {}
+[15.820218] (-) TimerEvent: {}
+[15.923607] (-) TimerEvent: {}
+[16.024315] (-) TimerEvent: {}
+[16.131070] (-) TimerEvent: {}
+[16.231700] (-) TimerEvent: {}
+[16.332310] (-) TimerEvent: {}
+[16.434533] (-) TimerEvent: {}
+[16.534956] (-) TimerEvent: {}
+[16.635747] (-) TimerEvent: {}
+[16.737468] (-) TimerEvent: {}
+[16.837925] (-) TimerEvent: {}
+[16.938455] (-) TimerEvent: {}
+[17.039402] (-) TimerEvent: {}
+[17.140765] (-) TimerEvent: {}
+[17.241703] (-) TimerEvent: {}
+[17.343688] (-) TimerEvent: {}
+[17.444517] (-) TimerEvent: {}
+[17.545137] (-) TimerEvent: {}
+[17.645717] (-) TimerEvent: {}
+[17.746702] (-) TimerEvent: {}
+[17.847303] (-) TimerEvent: {}
+[17.948054] (-) TimerEvent: {}
+[18.049622] (-) TimerEvent: {}
+[18.154132] (-) TimerEvent: {}
+[18.257181] (-) TimerEvent: {}
+[18.357731] (-) TimerEvent: {}
+[18.458281] (-) TimerEvent: {}
+[18.560064] (-) TimerEvent: {}
+[18.661028] (-) TimerEvent: {}
+[18.762515] (-) TimerEvent: {}
+[18.864975] (-) TimerEvent: {}
+[18.966846] (-) TimerEvent: {}
+[19.068096] (-) TimerEvent: {}
+[19.169853] (-) TimerEvent: {}
+[19.272895] (-) TimerEvent: {}
+[19.373903] (-) TimerEvent: {}
+[19.475891] (-) TimerEvent: {}
+[19.577884] (-) TimerEvent: {}
+[19.680249] (-) TimerEvent: {}
+[19.782057] (-) TimerEvent: {}
+[19.883319] (-) TimerEvent: {}
+[19.987917] (-) TimerEvent: {}
+[20.088338] (-) TimerEvent: {}
+[20.189128] (-) TimerEvent: {}
+[20.291077] (-) TimerEvent: {}
+[20.392289] (-) TimerEvent: {}
+[20.492917] (-) TimerEvent: {}
+[20.593339] (-) TimerEvent: {}
+[20.694057] (-) TimerEvent: {}
+[20.794362] (-) TimerEvent: {}
+[20.894819] (-) TimerEvent: {}
+[20.996762] (-) TimerEvent: {}
+[21.098808] (-) TimerEvent: {}
+[21.199310] (-) TimerEvent: {}
+[21.300310] (-) TimerEvent: {}
+[21.401266] (-) TimerEvent: {}
+[21.502562] (-) TimerEvent: {}
+[21.604506] (-) TimerEvent: {}
+[21.707833] (-) TimerEvent: {}
+[21.809189] (-) TimerEvent: {}
+[21.913127] (-) TimerEvent: {}
+[22.014036] (-) TimerEvent: {}
+[22.115132] (-) TimerEvent: {}
+[22.215994] (-) TimerEvent: {}
+[22.317035] (-) TimerEvent: {}
+[22.417846] (-) TimerEvent: {}
+[22.519343] (-) TimerEvent: {}
+[22.620200] (-) TimerEvent: {}
+[22.720884] (-) TimerEvent: {}
+[22.757989] (teleop_twist_joy) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libteleop_twist_joy.so\x1b[0m\n'}
+[22.821008] (-) TimerEvent: {}
+[22.921740] (-) TimerEvent: {}
+[23.022517] (-) TimerEvent: {}
+[23.123613] (-) TimerEvent: {}
+[23.224066] (-) TimerEvent: {}
+[23.324965] (-) TimerEvent: {}
+[23.425790] (-) TimerEvent: {}
+[23.527054] (-) TimerEvent: {}
+[23.628452] (-) TimerEvent: {}
+[23.632996] (teleop_twist_joy) StdoutLine: {'line': b'[ 50%] Built target teleop_twist_joy\n'}
+[23.655107] (teleop_twist_joy) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/teleop_twist_joy_node.dir/src/teleop_node.cpp.o\x1b[0m\n'}
+[23.728950] (-) TimerEvent: {}
+[23.829244] (-) TimerEvent: {}
+[23.930974] (-) TimerEvent: {}
+[24.031797] (-) TimerEvent: {}
+[24.132123] (-) TimerEvent: {}
+[24.232963] (-) TimerEvent: {}
+[24.334038] (-) TimerEvent: {}
+[24.434824] (-) TimerEvent: {}
+[24.535461] (-) TimerEvent: {}
+[24.635779] (-) TimerEvent: {}
+[24.736795] (-) TimerEvent: {}
+[24.838030] (-) TimerEvent: {}
+[24.938942] (-) TimerEvent: {}
+[25.039908] (-) TimerEvent: {}
+[25.140926] (-) TimerEvent: {}
+[25.241932] (-) TimerEvent: {}
+[25.343069] (-) TimerEvent: {}
+[25.443988] (-) TimerEvent: {}
+[25.545022] (-) TimerEvent: {}
+[25.645863] (-) TimerEvent: {}
+[25.747030] (-) TimerEvent: {}
+[25.848334] (-) TimerEvent: {}
+[25.949769] (-) TimerEvent: {}
+[26.050282] (-) TimerEvent: {}
+[26.151190] (-) TimerEvent: {}
+[26.251935] (-) TimerEvent: {}
+[26.352372] (-) TimerEvent: {}
+[26.452936] (-) TimerEvent: {}
+[26.554088] (-) TimerEvent: {}
+[26.655216] (-) TimerEvent: {}
+[26.756192] (-) TimerEvent: {}
+[26.856713] (-) TimerEvent: {}
+[26.957040] (-) TimerEvent: {}
+[27.057759] (-) TimerEvent: {}
+[27.158152] (-) TimerEvent: {}
+[27.259312] (-) TimerEvent: {}
+[27.360633] (-) TimerEvent: {}
+[27.398959] (teleop_twist_joy) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable teleop_node\x1b[0m\n'}
+[27.460744] (-) TimerEvent: {}
+[27.561784] (-) TimerEvent: {}
+[27.662856] (-) TimerEvent: {}
+[27.701104] (teleop_twist_joy) StdoutLine: {'line': b'[100%] Built target teleop_twist_joy_node\n'}
+[27.714756] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[27.760793] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'install'}
+[27.760891] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_joy'], 'cwd': '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1565'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=63d92a17f1aef2580d08e57564cad73d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu22:@/tmp/.ICE-unix/1565,unix/ubuntu22:/tmp/.ICE-unix/1565'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f5bce957_2bc3_4367_bfe7_871703e638e9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TNG681'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=63d92a17f1aef2580d08e57564cad73d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[27.763148] (-) TimerEvent: {}
+[27.772450] (teleop_twist_joy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.773005] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so\n'}
+[27.780318] (teleop_twist_joy) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so" to ""\n'}
+[27.780550] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node\n'}
+[27.780830] (teleop_twist_joy) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node" to ""\n'}
+[27.781010] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/include\n'}
+[27.781318] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/include/teleop_twist_joy\n'}
+[27.781481] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy.hpp\n'}
+[27.781606] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy_export.h\n'}
+[27.781714] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch\n'}
+[27.799908] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop-launch.py\n'}
+[27.800831] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/config\n'}
+[27.800947] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/logitech.yaml\n'}
+[27.801053] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml\n'}
+[27.801144] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml\n'}
+[27.801250] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml\n'}
+[27.801356] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml\n'}
+[27.801453] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml\n'}
+[27.801546] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.sh\n'}
+[27.801645] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.dsv\n'}
+[27.801744] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy\n'}
+[27.801843] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy\n'}
+[27.801960] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.sh\n'}
+[27.802048] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.dsv\n'}
+[27.802143] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.sh\n'}
+[27.809223] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.dsv\n'}
+[27.811089] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.bash\n'}
+[27.811462] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.sh\n'}
+[27.811709] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.zsh\n'}
+[27.811818] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.dsv\n'}
+[27.811916] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv\n'}
+[27.812125] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/ament_index/resource_index/packages/teleop_twist_joy\n'}
+[27.812298] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy\n'}
+[27.812411] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[27.812531] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[27.812637] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake\n'}
+[27.812756] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake\n'}
+[27.812846] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.xml\n'}
+[27.812973] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[27.868016] (-) TimerEvent: {}
+[27.881194] (teleop_twist_joy) JobEnded: {'identifier': 'teleop_twist_joy', 'rc': 0}
+[27.882158] (-) EventReactorShutdown: {}

@@ -1,0 +1,38 @@
+[0.026s] Invoking command in '/home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description -- -j6 -l6
+[0.077s] Invoked command in '/home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description -- -j6 -l6
+[0.120s] Invoking command in '/home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description
+[0.130s] -- Install configuration: ""
+[0.130s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/src
+[0.130s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/src/description
+[0.130s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/src/description/base.urdf
+[0.130s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/launch
+[0.131s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/launch/display.launch.py
+[0.131s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/rviz
+[0.131s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/rviz/urdf_config.rviz
+[0.131s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/config
+[0.131s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/config/ekf.yaml
+[0.131s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/config/nav2_params.yaml
+[0.131s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/world
+[0.132s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/world/my_world.sdf
+[0.132s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description//launch
+[0.132s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description//launch/display.launch.py
+[0.132s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description//meshes
+[0.132s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description//meshes/wheel_wcm.dae
+[0.132s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description//meshes/rover_base.dae
+[0.132s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description//meshes/rover_base_stl.stl
+[0.132s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/ament_index/resource_index/package_run_dependencies/rover_description
+[0.132s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/ament_index/resource_index/parent_prefix_path/rover_description
+[0.133s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/environment/ament_prefix_path.sh
+[0.133s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/environment/ament_prefix_path.dsv
+[0.133s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/environment/path.sh
+[0.133s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/environment/path.dsv
+[0.133s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/local_setup.bash
+[0.133s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/local_setup.sh
+[0.133s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/local_setup.zsh
+[0.133s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/local_setup.dsv
+[0.134s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/package.dsv
+[0.134s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/ament_index/resource_index/packages/rover_description
+[0.139s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/cmake/rover_descriptionConfig.cmake
+[0.139s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/cmake/rover_descriptionConfig-version.cmake
+[0.139s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/package.xml
+[0.139s] Invoked command in '/home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description

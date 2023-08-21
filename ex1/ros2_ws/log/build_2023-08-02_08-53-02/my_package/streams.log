@@ -1,0 +1,41 @@
+[1.600s] Invoking command in '/home/vboxuser/rsl-ros-training/ex1/ros2_ws/src/my_package': PYTHONPATH=/home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/my_package/prefix_override:/home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/my_package/build install --record /home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/my_package/install.log --single-version-externally-managed
+[2.366s] running egg_info
+[2.366s] creating ../../build/my_package/my_package.egg-info
+[2.367s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[2.368s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[2.369s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[2.369s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[2.369s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[2.370s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[2.378s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[2.385s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[2.386s] running build
+[2.386s] running build_py
+[2.386s] creating /home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/my_package/build
+[2.386s] creating /home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/my_package/build/lib
+[2.386s] creating /home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/my_package/build/lib/my_package
+[2.386s] copying my_package/subscriber_member_function.py -> /home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/my_package/build/lib/my_package
+[2.386s] copying my_package/publisher_member_function.py -> /home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/my_package/build/lib/my_package
+[2.387s] copying my_package/__init__.py -> /home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/my_package/build/lib/my_package
+[2.387s] running install
+[2.387s] running install_lib
+[2.387s] creating /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[2.389s] copying /home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/my_package/build/lib/my_package/subscriber_member_function.py -> /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[2.389s] copying /home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/my_package/build/lib/my_package/publisher_member_function.py -> /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[2.390s] copying /home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/my_package/build/lib/my_package/__init__.py -> /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[2.390s] byte-compiling /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[2.391s] byte-compiling /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[2.391s] byte-compiling /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc
+[2.392s] running install_data
+[2.393s] creating /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/my_package/share/ament_index
+[2.393s] creating /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/my_package/share/ament_index/resource_index
+[2.393s] creating /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/my_package/share/ament_index/resource_index/packages
+[2.394s] copying resource/my_package -> /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/my_package/share/ament_index/resource_index/packages
+[2.394s] copying package.xml -> /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/my_package/share/my_package
+[2.394s] running install_egg_info
+[2.397s] Copying ../../build/my_package/my_package.egg-info to /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[2.398s] running install_scripts
+[2.441s] Installing pub script to /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/my_package/lib/my_package
+[2.442s] Installing sub script to /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/my_package/lib/my_package
+[2.442s] writing list of installed files to '/home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/my_package/install.log'
+[2.538s] Invoked command in '/home/vboxuser/rsl-ros-training/ex1/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/my_package/prefix_override:/home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/my_package/build install --record /home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/my_package/install.log --single-version-externally-managed

@@ -1,0 +1,21 @@
+[1.538s] Invoking command in '/home/vboxuser/rsl-ros-training/ex3/robot_ws/src/rsl_roboteq': PYTHONPATH=/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rsl_roboteq/prefix_override:/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rsl_roboteq/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rsl_roboteq build --build-base /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rsl_roboteq/build install --record /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rsl_roboteq/install.log --single-version-externally-managed
+[1.877s] running egg_info
+[1.878s] writing ../../build/rsl_roboteq/rsl_roboteq.egg-info/PKG-INFO
+[1.879s] writing dependency_links to ../../build/rsl_roboteq/rsl_roboteq.egg-info/dependency_links.txt
+[1.880s] writing entry points to ../../build/rsl_roboteq/rsl_roboteq.egg-info/entry_points.txt
+[1.880s] writing requirements to ../../build/rsl_roboteq/rsl_roboteq.egg-info/requires.txt
+[1.880s] writing top-level names to ../../build/rsl_roboteq/rsl_roboteq.egg-info/top_level.txt
+[1.881s] reading manifest file '../../build/rsl_roboteq/rsl_roboteq.egg-info/SOURCES.txt'
+[1.882s] writing manifest file '../../build/rsl_roboteq/rsl_roboteq.egg-info/SOURCES.txt'
+[1.883s] running build
+[1.883s] running build_py
+[1.883s] running install
+[1.883s] running install_lib
+[1.884s] running install_data
+[1.884s] running install_egg_info
+[1.886s] removing '/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rsl_roboteq/lib/python3.10/site-packages/rsl_roboteq-0.0.0-py3.10.egg-info' (and everything under it)
+[1.887s] Copying ../../build/rsl_roboteq/rsl_roboteq.egg-info to /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rsl_roboteq/lib/python3.10/site-packages/rsl_roboteq-0.0.0-py3.10.egg-info
+[1.889s] running install_scripts
+[1.918s] Installing roboteq_node script to /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rsl_roboteq/lib/rsl_roboteq
+[1.918s] writing list of installed files to '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rsl_roboteq/install.log'
+[1.966s] Invoked command in '/home/vboxuser/rsl-ros-training/ex3/robot_ws/src/rsl_roboteq' returned '0': PYTHONPATH=/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rsl_roboteq/prefix_override:/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rsl_roboteq/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rsl_roboteq build --build-base /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rsl_roboteq/build install --record /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/rsl_roboteq/install.log --single-version-externally-managed

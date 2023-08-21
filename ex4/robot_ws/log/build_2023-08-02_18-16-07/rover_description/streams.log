@@ -1,0 +1,64 @@
+[0.037s] Invoking command in '/home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vboxuser/rsl-ros-training/ex4/robot_ws/src/rover_description -DCMAKE_INSTALL_PREFIX=/home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description
+[0.188s] -- The C compiler identification is GNU 11.4.0
+[0.287s] -- The CXX compiler identification is GNU 11.4.0
+[0.291s] -- Detecting C compiler ABI info
+[0.383s] -- Detecting C compiler ABI info - done
+[0.393s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.393s] -- Detecting C compile features
+[0.394s] -- Detecting C compile features - done
+[0.397s] -- Detecting CXX compiler ABI info
+[0.500s] -- Detecting CXX compiler ABI info - done
+[0.515s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.515s] -- Detecting CXX compile features
+[0.515s] -- Detecting CXX compile features - done
+[0.515s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.733s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.840s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.842s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.924s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.925s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.926s] -- Added test 'lint_cmake' to check CMake code style
+[0.927s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.928s] -- Added test 'xmllint' to check XML markup files
+[0.930s] -- Configuring done
+[0.932s] -- Generating done
+[0.933s] -- Build files have been written to: /home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description
+[0.940s] Invoked command in '/home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vboxuser/rsl-ros-training/ex4/robot_ws/src/rover_description -DCMAKE_INSTALL_PREFIX=/home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description
+[0.943s] Invoking command in '/home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description -- -j6 -l6
+[0.993s] Invoked command in '/home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description -- -j6 -l6
+[1.032s] Invoking command in '/home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description
+[1.047s] -- Install configuration: ""
+[1.048s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/src
+[1.048s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/src/description
+[1.048s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/src/description/base.urdf
+[1.048s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/launch
+[1.048s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/launch/display.launch.py
+[1.049s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/rviz
+[1.049s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/rviz/urdf_config.rviz
+[1.049s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/config
+[1.049s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/config/ekf.yaml
+[1.049s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/config/nav2_params.yaml
+[1.049s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/world
+[1.049s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/world/my_world.sdf
+[1.049s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description//launch
+[1.050s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description//launch/display.launch.py
+[1.050s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description//meshes
+[1.050s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description//meshes/wheel_wcm.dae
+[1.051s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description//meshes/rover_base.dae
+[1.199s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description//meshes/rover_base_stl.stl
+[1.437s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/ament_index/resource_index/package_run_dependencies/rover_description
+[1.437s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/ament_index/resource_index/parent_prefix_path/rover_description
+[1.437s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/environment/ament_prefix_path.sh
+[1.438s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/environment/ament_prefix_path.dsv
+[1.438s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/environment/path.sh
+[1.438s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/environment/path.dsv
+[1.438s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/local_setup.bash
+[1.438s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/local_setup.sh
+[1.438s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/local_setup.zsh
+[1.438s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/local_setup.dsv
+[1.438s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/package.dsv
+[1.439s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/ament_index/resource_index/packages/rover_description
+[1.439s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/cmake/rover_descriptionConfig.cmake
+[1.439s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/cmake/rover_descriptionConfig-version.cmake
+[1.439s] -- Installing: /home/vboxuser/rsl-ros-training/ex4/robot_ws/install/rover_description/share/rover_description/package.xml
+[1.439s] Invoked command in '/home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description

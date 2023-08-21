@@ -1,0 +1,16 @@
+/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/launch/rover.launch.py
+/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/ament_index/resource_index/package_run_dependencies/rover_launch
+/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/ament_index/resource_index/parent_prefix_path/rover_launch
+/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/environment/ament_prefix_path.sh
+/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/environment/ament_prefix_path.dsv
+/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/environment/path.sh
+/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/environment/path.dsv
+/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/local_setup.bash
+/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/local_setup.sh
+/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/local_setup.zsh
+/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/local_setup.dsv
+/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/package.dsv
+/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/ament_index/resource_index/packages/rover_launch
+/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/cmake/rover_launchConfig.cmake
+/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/cmake/rover_launchConfig-version.cmake
+/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/rover_launch/share/rover_launch/package.xml

@@ -1,0 +1,46 @@
+[0.645s] Invoking command in '/home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/rover_start': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vboxuser/rsl-ros-training/ex1/ros2_ws/src/rover_start -DCMAKE_INSTALL_PREFIX=/home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/rover_start
+[0.951s] -- The C compiler identification is GNU 11.3.0
+[1.133s] -- The CXX compiler identification is GNU 11.3.0
+[1.170s] -- Detecting C compiler ABI info
+[1.386s] -- Detecting C compiler ABI info - done
+[1.393s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.400s] -- Detecting C compile features
+[1.404s] -- Detecting C compile features - done
+[1.419s] -- Detecting CXX compiler ABI info
+[1.733s] -- Detecting CXX compiler ABI info - done
+[1.759s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.764s] -- Detecting CXX compile features
+[1.768s] -- Detecting CXX compile features - done
+[1.796s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.347s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.696s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.939s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.939s] -- Added test 'lint_cmake' to check CMake code style
+[2.940s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.942s] -- Added test 'xmllint' to check XML markup files
+[2.950s] -- Configuring done
+[2.961s] -- Generating done
+[2.963s] -- Build files have been written to: /home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/rover_start
+[2.972s] Invoked command in '/home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/rover_start' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vboxuser/rsl-ros-training/ex1/ros2_ws/src/rover_start -DCMAKE_INSTALL_PREFIX=/home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/rover_start
+[2.975s] Invoking command in '/home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/rover_start': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/rover_start -- -j6 -l6
+[3.058s] Invoked command in '/home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/rover_start' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/rover_start -- -j6 -l6
+[3.137s] Invoking command in '/home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/rover_start': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/rover_start
+[3.165s] -- Install configuration: ""
+[3.177s] -- Installing: /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/rover_start/share/rover_start/launch
+[3.178s] -- Installing: /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/rover_start/share/rover_start/launch/rover.launch.py
+[3.179s] -- Installing: /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/rover_start/share/ament_index/resource_index/package_run_dependencies/rover_start
+[3.184s] -- Installing: /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/rover_start/share/ament_index/resource_index/parent_prefix_path/rover_start
+[3.184s] -- Installing: /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/rover_start/share/rover_start/environment/ament_prefix_path.sh
+[3.184s] -- Installing: /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/rover_start/share/rover_start/environment/ament_prefix_path.dsv
+[3.184s] -- Installing: /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/rover_start/share/rover_start/environment/path.sh
+[3.184s] -- Installing: /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/rover_start/share/rover_start/environment/path.dsv
+[3.184s] -- Installing: /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/rover_start/share/rover_start/local_setup.bash
+[3.185s] -- Installing: /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/rover_start/share/rover_start/local_setup.sh
+[3.185s] -- Installing: /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/rover_start/share/rover_start/local_setup.zsh
+[3.185s] -- Installing: /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/rover_start/share/rover_start/local_setup.dsv
+[3.185s] -- Installing: /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/rover_start/share/rover_start/package.dsv
+[3.185s] -- Installing: /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/rover_start/share/ament_index/resource_index/packages/rover_start
+[3.185s] -- Installing: /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/rover_start/share/rover_start/cmake/rover_startConfig.cmake
+[3.185s] -- Installing: /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/rover_start/share/rover_start/cmake/rover_startConfig-version.cmake
+[3.185s] -- Installing: /home/vboxuser/rsl-ros-training/ex1/ros2_ws/install/rover_start/share/rover_start/package.xml
+[3.186s] Invoked command in '/home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/rover_start' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/rsl-ros-training/ex1/ros2_ws/build/rover_start

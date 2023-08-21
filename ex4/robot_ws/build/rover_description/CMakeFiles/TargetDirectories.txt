@@ -1,0 +1,9 @@
+/home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description/CMakeFiles/uninstall.dir
+/home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description/CMakeFiles/rover_description_uninstall.dir
+/home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description/CMakeFiles/test.dir
+/home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description/CMakeFiles/edit_cache.dir
+/home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description/CMakeFiles/rebuild_cache.dir
+/home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description/CMakeFiles/list_install_components.dir
+/home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description/CMakeFiles/install.dir
+/home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description/CMakeFiles/install/local.dir
+/home/vboxuser/rsl-ros-training/ex4/robot_ws/build/rover_description/CMakeFiles/install/strip.dir

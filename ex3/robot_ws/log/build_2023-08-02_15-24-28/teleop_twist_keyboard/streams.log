@@ -1,0 +1,33 @@
+[3.058s] Invoking command in '/home/vboxuser/rsl-ros-training/ex3/robot_ws/src/teleop_twist_keyboard': PYTHONPATH=/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_keyboard/prefix_override:/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_keyboard/build install --record /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed
+[3.552s] running egg_info
+[3.552s] creating ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info
+[3.553s] writing ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO
+[3.553s] writing dependency_links to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt
+[3.553s] writing entry points to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt
+[3.554s] writing requirements to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt
+[3.556s] writing top-level names to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt
+[3.557s] writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[3.557s] reading manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[3.557s] adding license file 'LICENSE'
+[3.558s] writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[3.558s] running build
+[3.558s] running build_py
+[3.559s] creating /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_keyboard/build
+[3.559s] creating /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_keyboard/build/lib
+[3.560s] copying teleop_twist_keyboard.py -> /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_keyboard/build/lib
+[3.560s] running install
+[3.561s] running install_lib
+[3.561s] copying /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard.py -> /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages
+[3.561s] byte-compiling /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-310.pyc
+[3.561s] running install_data
+[3.561s] creating /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_keyboard/share/ament_index
+[3.561s] creating /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_keyboard/share/ament_index/resource_index
+[3.561s] creating /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages
+[3.561s] copying resource/teleop_twist_keyboard -> /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages
+[3.561s] copying package.xml -> /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard
+[3.561s] running install_egg_info
+[3.561s] Copying ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.3.2-py3.10.egg-info
+[3.561s] running install_scripts
+[3.585s] Installing teleop_twist_keyboard script to /home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard
+[3.586s] writing list of installed files to '/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_keyboard/install.log'
+[3.754s] Invoked command in '/home/vboxuser/rsl-ros-training/ex3/robot_ws/src/teleop_twist_keyboard' returned '0': PYTHONPATH=/home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_keyboard/prefix_override:/home/vboxuser/rsl-ros-training/ex3/robot_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_keyboard/build install --record /home/vboxuser/rsl-ros-training/ex3/robot_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed

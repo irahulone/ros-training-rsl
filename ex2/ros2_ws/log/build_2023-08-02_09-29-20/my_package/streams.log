@@ -1,0 +1,22 @@
+[2.050s] Invoking command in '/home/vboxuser/rsl-ros-training/ex2/ros2_ws/src/my_package': PYTHONPATH=/home/vboxuser/rsl-ros-training/ex2/ros2_ws/build/my_package/prefix_override:/home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/vboxuser/rsl-ros-training/ex2/ros2_ws/build/my_package/build install --record /home/vboxuser/rsl-ros-training/ex2/ros2_ws/build/my_package/install.log --single-version-externally-managed
+[2.515s] running egg_info
+[2.520s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[2.521s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[2.521s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[2.521s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[2.521s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[2.523s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[2.524s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[2.524s] running build
+[2.524s] running build_py
+[2.524s] running install
+[2.525s] running install_lib
+[2.526s] running install_data
+[2.526s] running install_egg_info
+[2.528s] removing '/home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[2.528s] Copying ../../build/my_package/my_package.egg-info to /home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[2.529s] running install_scripts
+[2.561s] Installing pub script to /home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/my_package/lib/my_package
+[2.562s] Installing sub script to /home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/my_package/lib/my_package
+[2.563s] writing list of installed files to '/home/vboxuser/rsl-ros-training/ex2/ros2_ws/build/my_package/install.log'
+[2.638s] Invoked command in '/home/vboxuser/rsl-ros-training/ex2/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/vboxuser/rsl-ros-training/ex2/ros2_ws/build/my_package/prefix_override:/home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/vboxuser/rsl-ros-training/ex2/ros2_ws/build/my_package/build install --record /home/vboxuser/rsl-ros-training/ex2/ros2_ws/build/my_package/install.log --single-version-externally-managed

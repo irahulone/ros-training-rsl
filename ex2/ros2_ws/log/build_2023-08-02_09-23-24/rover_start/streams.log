@@ -1,0 +1,22 @@
+[0.515s] Invoking command in '/home/vboxuser/rsl-ros-training/ex2/ros2_ws/build/rover_start': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/rsl-ros-training/ex2/ros2_ws/build/rover_start -- -j6 -l6
+[0.944s] Invoked command in '/home/vboxuser/rsl-ros-training/ex2/ros2_ws/build/rover_start' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/rsl-ros-training/ex2/ros2_ws/build/rover_start -- -j6 -l6
+[0.998s] Invoking command in '/home/vboxuser/rsl-ros-training/ex2/ros2_ws/build/rover_start': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/rsl-ros-training/ex2/ros2_ws/build/rover_start
+[1.014s] -- Install configuration: ""
+[1.014s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/rover_start/share/rover_start/launch
+[1.014s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/rover_start/share/rover_start/launch/my_first.launch.py
+[1.014s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/rover_start/share/ament_index/resource_index/package_run_dependencies/rover_start
+[1.014s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/rover_start/share/ament_index/resource_index/parent_prefix_path/rover_start
+[1.014s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/rover_start/share/rover_start/environment/ament_prefix_path.sh
+[1.014s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/rover_start/share/rover_start/environment/ament_prefix_path.dsv
+[1.014s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/rover_start/share/rover_start/environment/path.sh
+[1.014s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/rover_start/share/rover_start/environment/path.dsv
+[1.015s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/rover_start/share/rover_start/local_setup.bash
+[1.015s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/rover_start/share/rover_start/local_setup.sh
+[1.015s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/rover_start/share/rover_start/local_setup.zsh
+[1.015s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/rover_start/share/rover_start/local_setup.dsv
+[1.015s] -- Installing: /home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/rover_start/share/rover_start/package.dsv
+[1.015s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/rover_start/share/ament_index/resource_index/packages/rover_start
+[1.015s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/rover_start/share/rover_start/cmake/rover_startConfig.cmake
+[1.015s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/rover_start/share/rover_start/cmake/rover_startConfig-version.cmake
+[1.015s] -- Up-to-date: /home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/rover_start/share/rover_start/package.xml
+[1.017s] Invoked command in '/home/vboxuser/rsl-ros-training/ex2/ros2_ws/build/rover_start' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/rsl-ros-training/ex2/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/rsl-ros-training/ex2/ros2_ws/build/rover_start
